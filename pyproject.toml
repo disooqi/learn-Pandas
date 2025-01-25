@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learn-pandas"
+version = "0.1.0"
+description = "It is time to learn pandas package after avoiding that for 10 years"
+authors = ["Mohamed Eldesouki <github@eldesouki.com>"]
+license = "What do you think?"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+jupyterlab = "^4.3.4"
+scipy = "^1.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
